@@ -30,6 +30,8 @@ public class MotorPHSalaryCalculation {
                 var SalaryCalculation = new SalaryCalculation();
                 break;
             }
+            default://This is the default and will run if the user inputs Employee ID other than 001 or 002(Registered Employee ID)
+            System.out.println("No Employee Registered with the inserted Employee ID");
             
               
     }   
